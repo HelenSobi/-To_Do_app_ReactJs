@@ -1,0 +1,201 @@
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body{
+background-image:url(https://raw.githubusercontent.com/rohit-shinde-26/To_Do_app_ReactJs/main/src/assets/1.png);
+  /* background: linear-gradient(300deg, deepskyblue, darkviolet); */
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+}
+.hero h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    font-weight: 200;
+    padding:1rem;
+}
+p.text-cursive{
+  font-family: cursive;
+  color:#fff; 
+  padding:1rem;
+}
+.container{
+  height: 500px;
+  width: 400px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 30px;
+  box-shadow: #8fadec 0px 5px 9px;
+}
+.heading{
+  background: linear-gradient(90deg, #12c2e9, #c471ed, #f64f59);
+  padding:1rem;
+  width: 400px;
+  border-radius: 10px 10px 0px 0px;
+}
+/* .display-icons{
+
+} */
+.heading-h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-weight: 300;
+}
+.task{
+  border: none;
+  padding:1rem;
+  width: 300px;
+  border-radius: 5px; 
+  background-color: #97d2ec1e;
+  border: 1px solid black;
+}
+.m-1{
+  margin:1rem;
+}
+.task:hover{
+  border: none;
+}
+.add_btn{
+  border-radius: 50%;
+  background-color: white;
+  border: none;
+  margin-left:1rem;
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.add_btn:hover{
+  /* background-color: #A8E890; */
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  border: 1px solid #7752FE;
+}
+.listbox{
+  padding:1rem;
+  /*height: 50px;
+   margin-left: -40px; */
+  border-radius: 3px;
+  box-shadow: rgba(50, 50, 93, 0.03) 0px 50px 100px -20px, rgba(0, 0, 0, 0.112) 0px 30px 60px -30px, rgba(10, 37, 64, 0.084) 0px -2px 6px 0px inset;
+  
+}
+.listbox:hover{
+  border-left: 7px solid #7752FE ;
+}
+.list_style{
+  display: flex; 
+  font-size: .8rem;
+}
+
+.list_style:hover{
+  font-weight: 400;
+  cursor: pointer;
+}
+.flexItem1{
+  align-content:flex-start;
+  flex-grow:1;
+}
+.flexItem2{
+  align-content:flex-end;
+}
+.del{
+  /* border-radius: 50%; */
+  border: none;
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  /* margin-right: 20px; */
+  justify-content: center;
+  padding: 5px;
+  cursor: pointer;
+  
+}
+/* .del:hover{
+  background-color: #EB455F;
+} */
+.top{
+  /* border-radius: 50%; */
+  border: none;
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  /* margin-left: -10px; */
+  /* margin-right: 10px; */
+  padding: 5px;
+  cursor: pointer;
+  
+}
+.edit{
+  /* border-radius: 50%; */
+  border: none;
+  height: 30px;
+  background-color: white;
+  width: 30px;
+  /* margin-left: 5px; */
+  /* margin-right: 20px; */
+  padding: 5px;
+  cursor: pointer;
+}
+.vis{
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: white;
+  margin-right: 10px;
+  margin-top: 3px;
+  /* box-shadow: #c1e0f3 0px 5px 15px; */
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .listcard{
+  list-style-type: none;
+}
+.listitem{
+  font-size: 25px;
+} */
+/* .userheading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  padding: 30px;
+  background-color:#61dafb;
+}
+.card{
+  border: 1px solid black;
+  width: 500px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  margin-bottom: 20px;
+} */
